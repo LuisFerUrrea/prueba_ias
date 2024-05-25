@@ -4,8 +4,10 @@ import com.eventos.eventos.infraestructure.driven_adapters.jpa_repository.eventE
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@NoArgsConstructor
 @AllArgsConstructor
 @Setter
 @Getter

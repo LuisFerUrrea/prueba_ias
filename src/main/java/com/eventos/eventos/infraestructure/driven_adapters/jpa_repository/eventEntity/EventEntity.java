@@ -4,12 +4,14 @@ import com.eventos.eventos.infraestructure.driven_adapters.jpa_repository.userEn
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.util.List;
 
 @AllArgsConstructor
+@NoArgsConstructor
 @Setter
 @Getter
 @Entity
